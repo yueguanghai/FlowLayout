@@ -1,18 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <com.gzn.flowlayout.WaterFallFlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,hi" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="你是我的"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,man" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="helloview" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="我是你的"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="he" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="textview" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,mt" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hel" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hel" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hel2" />
+    </com.gzn.flowlayout.WaterFallFlowLayout>
+
+</LinearLayout>
